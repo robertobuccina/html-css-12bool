@@ -9,3 +9,45 @@
     max-width: 1020px;
     margin: auto;
 }
+
+.row-1 >*,
+.row-2 >*,
+.row-3 >*,
+.row-4 >*{
+    border: 2px solid black;
+    background: pink;
+}
+
+
+.row-5 >.col-6{
+    border: 2px solid black;
+    background: pink;
+    padding:5px ;
+}
+
+
+[class*="box-coral"]{
+    background: coral;
+    height: calc(150px - 14px);
+    border: 1px solid white;
+    position: relative;
+}
+
+
+[class*="col-"]{
+    position: relative;
+}
+
+.box-pink{
+    position:absolute;
+    Top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.content{
+    position:absolute;
+    Top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}

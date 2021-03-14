@@ -6,12 +6,13 @@
     clear: both;
 }
 
-[class= col-]{
+[class*="col-"]{
     float: left;
+    height: 150px;
+
 }
 
 /*COLUMN*/
-
 .col-1{
     width: calc(100% / 12);
 }
